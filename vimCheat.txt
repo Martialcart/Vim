@@ -1,15 +1,18 @@
-close window    ctrl + w -> q
-new doc win     ctrl + w -> n
-add win under   ctrl + w -> s
-add  win right  ctrl + w -> v
-adjust height   ctrl + w -> + / -
-adjust width    ctrl + w -> < / >
-swap windows    ctrl + w -> direction(h,j,k,l)
-move window     ctrl + w -> shift + direction
-click link      ctrl + (^¨~)-button
-jump back       ctrl + o
-jump forward    ctrl + i
-save and exit   shift + zz
+new file current window     :ene
+list buffers/files/win      :ls / :buffers /  :files
+open buffer in current win  :buffer N 
+close window                ctrl + w -> q
+new doc win                 ctrl + w -> n
+add win under               ctrl + w -> s
+add  win right              ctrl + w -> v
+adjust height               ctrl + w -> + / -
+adjust width                ctrl + w -> < / >
+swap windows                ctrl + w -> direction(h,j,k,l)
+move window                 ctrl + w -> shift + direction
+click link                  ctrl + (^¨~)-button
+jump back                   ctrl + o
+jump forward                ctrl + i
+save and exit               shift + zz
 file explorer
         start                           :Explorer / :e .
         exit                            :Rexplore
@@ -104,7 +107,7 @@ search  forward                         /string
         backward                        &string 
         word at cursor  down            *
                         up              #
-        navigation
+        navigation                      press enter to go into navigation
                 forward                 n
                 backward                shift + new
                 close
