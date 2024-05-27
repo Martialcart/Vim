@@ -114,3 +114,10 @@ search  forward                         /string
                 forward                 n
                 backward                shift + new
                 close
+replace
+        :range S/search/replace/flag
+                range   %       page
+                        1,$     line 5 to end of file    
+                flags
+                        g       all
+                        c       confirm
