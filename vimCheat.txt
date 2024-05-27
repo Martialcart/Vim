@@ -1,0 +1,110 @@
+close window    ctrl + w -> q
+new doc win     ctrl + w -> n
+add win under   ctrl + w -> s
+add  win right  ctrl + w -> v
+adjust height   ctrl + w -> + / -
+adjust width    ctrl + w -> < / >
+swap windows    ctrl + w -> direction(h,j,k,l)
+move window     ctrl + w -> shift + direction
+click link      ctrl + (^¨~)-button
+jump back       ctrl + o
+jump forward    ctrl + i
+save and exit   shift + zz
+file explorer
+        start                           :Explorer / :e .
+        exit                            :Rexplore
+        open tab                        :Texplore
+        open file   vsplit              v
+                    prevoius window     p
+        list style                      i (4 styles, last is tree)
+        header                          shift + i
+        go up dir                       - 
+
+new tab         :tabnew "tabname"
+list tabs       :tabs
+next tab        ctrl + pageDown
+previous tab    ctrl + pageUp
+last used tab   g + tab
+1 file 1 tab    vim -p filename ...
+
+random stuff
+show commandline window                 :ctrl + f
+get a list of commands                  :ctrl + d
+
+text editing
+        cut line                        dd
+        delete line break               shift + j
+        new line under                  o
+        new line over                   shift + o
+        delete                          x
+        delete word                     ctrl + w
+        delete rest of line             ctrl + u
+        undo            u
+        redo            ctrl + r
+        copy            y
+        cut             d
+        paste           shift p
+        replace tab with space          :retab
+movement
+        0/HOME (e)backwards(ge) cursor (w)forward(b) $/END
+        move to 1. non blanck char      shift + ^^
+        go to char                      F/f char
+        move to char                    T/t
+        move to matching {[(            %
+        go to a line number             n G
+        go to end of file               G
+        go to start of file             0G / gg
+        move to % of file               50%
+        move to visible lines           (H)igh (M)iddle (L)ow
+        show where you are              ctrl + g
+        scroll  up      line            ctrl + e
+                        50%             ctrl + u
+                        100%            ctrl + f
+                down    line            ctrl + y
+                        50%             ctrl + d
+                        100%            ctrl + b
+                <-->    1. char         g0
+                        1. non blank    g^^
+                        middle          gm
+                        middle text     gM
+                        last char       g$
+move cursor     top                     zt
+                to view                 zz      
+                bottom                  zb
+                before jump             '
+                last edit               "
+                start last change       [
+                end last change         ]
+select / visualmode
+        normal select                   v
+        line select                     shift + v
+        box select                      ctrl + v
+        edit selected lines             shift + i
+autocomplete
+        get suggestion                  ctrl + n
+        navigate        forward         ctrl + n
+                        backward        ctrl + p
+        accept                          tab
+Settings
+        show cursor position            :set ruler / noruler
+        show line numbers               :set number / nonumber
+        case sensetive                  :set ignorecase / noignorecase
+        highlight search                :set hlsearch / nohlsearch
+        search while typing             :set incsearch
+        no wrap search                  :set nowrapscan
+        auto indentation                :set ai
+        tab is spaces                   :expandtab
+        tab space width                 :tabstop=4
+        set tab width                   :set tw=4
+change default startup settings
+        on top for default source $VIMRUNTIME/defaults.vim
+        path                             $HOME/_vimrc
+        reload vim                      :so $MYVIMRC
+search  forward                         /string
+        backward                        &string 
+        word at cursor  down            *
+                        up              #
+        navigation
+                forward                 n
+                backward                shift + new
+                close
