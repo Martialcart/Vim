@@ -1,6 +1,8 @@
 new file current window     :ene
 list buffers/files/win      :ls / :buffers /  :files
 open buffer in current win  :buffer N 
+unload buffer               :bd N 
+discard changes buffer      :#
 close window                ctrl + w -> q
 new doc win                 ctrl + w -> n
 add win under               ctrl + w -> s
@@ -20,6 +22,7 @@ file explorer
         open file   vsplit              v
                     prevoius window     p
         list style                      i (4 styles, last is tree)
+        set top of tree                 Ntree [direcotry]
         header                          shift + i
         go up dir                       - 
 
