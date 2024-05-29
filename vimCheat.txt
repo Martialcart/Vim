@@ -39,17 +39,18 @@ get a list of commands                  :ctrl + d
 
 text editing
         cut line                        dd
+	replace line			shift + c
         delete line break               shift + j
         new line under                  o
         new line over                   shift + o
         delete                          x
         delete word                     ctrl + w
         delete rest of line             ctrl + u
-        undo            u
-        redo            ctrl + r
-        copy            y
-        cut             d
-        paste           shift p
+        undo            		u
+        redo            		ctrl + r
+        copy            		y
+        cut             		d
+        paste           		shift p
         replace tab with space          :retab
 movement
         0/HOME (e)backwards(ge) cursor (w)forward(b) $/END
