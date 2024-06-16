@@ -12,6 +12,19 @@ adjust width                ctrl + w -> < / >
 swap windows                ctrl + w -> direction(h,j,k,l)
 move window                 ctrl + w -> shift + direction
 click link                  ctrl + (^¨~)-button
+exit recording mode		q
+search
+	OR
+		
+window
+	go to 
+		previous		ctrl + w p
+		bottom right		ctrl + w b
+		top left		ctrl + w t
+		next			ctrl + w w
+	move
+		rotate 			ctrl + w r / R
+		swap N			[window Num] ctrl + w x	
 jump back                   ctrl + o
 jump forward                ctrl + i
 save and exit               shift + zz
