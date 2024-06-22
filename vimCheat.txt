@@ -1,8 +1,11 @@
-new file current window     :ene
+
+buffers(buffered text files)
 list buffers/files/win      :ls / :buffers /  :files
 open buffer in current win  :buffer N 
 unload buffer               :bd N 
 discard changes buffer      :#
+
+Window
 close window                ctrl + w -> q
 new doc win                 ctrl + w -> n
 add win under               ctrl + w -> s
@@ -11,11 +14,9 @@ adjust height               ctrl + w -> + / -
 adjust width                ctrl + w -> < / >
 swap windows                ctrl + w -> direction(h,j,k,l)
 move window                 ctrl + w -> shift + direction
-click link                  ctrl + (^¨~)-button
-exit recording mode		q
-search
-	OR
-		
+new file current window     :ene
+
+	
 window
 	go to 
 		previous		ctrl + w p
@@ -28,6 +29,11 @@ window
 jump back                   ctrl + o
 jump forward                ctrl + i
 save and exit               shift + zz
+
+click link                  ctrl + (^¨~)-button
+search
+	OR
+	
 file explorer
         start                           :Explorer / :e .
         exit                            :Rexplore
@@ -49,6 +55,7 @@ last used tab   g + tab
 random stuff
 show commandline window                 :ctrl + f
 get a list of commands                  :ctrl + d
+exit recording mode			q
 
 text editing
         cut line                        dd
@@ -88,7 +95,8 @@ movement
                         middle          gm
                         middle text     gM
                         last char       g$
-move cursor     top                     zt
+	cursor
+		top                     zt
                 to view                 zz      
                 bottom                  zb
                 before jump             '
@@ -120,8 +128,9 @@ change default startup settings
         on top for default source $VIMRUNTIME/defaults.vim
         path                             $HOME/_vimrc
         reload vim                      :so $MYVIMRC
-search  forward                         /string
-        backward                        &string 
+search  
+	forward                         /string
+        backward                        ?string 
         word at cursor  down            *
                         up              #
         navigation                      press enter to go into navigation
