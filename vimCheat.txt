@@ -102,7 +102,7 @@ movement
 		top                     zt
                 to view                 zz      
                 bottom                  zb
-                before jump             '
+                before jump             shift + \\
                 last edit               "
                 start last change       [
                 end last change         ]
