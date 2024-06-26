@@ -59,18 +59,18 @@ exit recording mode			q
 
 text editing
         cut line                        dd
-	replace line			shift + c
+    	replace line			        shift + c
         delete line break               shift + j
         new line under                  o
         new line over                   shift + o
         delete                          x
         delete word                     ctrl + w
-        delete rest of line             ctrl + u
+        delete rest of line             ctrl + u 
         undo            		u
         redo            		ctrl + r
         copy            		y
         cut             		d
-        paste           		shift p
+        paste           		p
         replace tab with space          :retab
 movement
         0/HOME (e)backwards(ge) cursor (w)forward(b) $/END
@@ -84,17 +84,20 @@ movement
         move to % of file               50%
         move to visible lines           (H)igh (M)iddle (L)ow
         show where you are              ctrl + g
-        scroll  up      line            ctrl + e
-                        50%             ctrl + u
-                        100%            ctrl + f
-                down    line            ctrl + y
-                        50%             ctrl + d
-                        100%            ctrl + b
+        scroll              up       
+                        100%    ctrl + b  
+                        50%     ctrl + u 
+                        line    ctrl + y
+                    -------------------------------------
+                        line    ctrl + e
+                        50%     ctrl + d 
+                        100%    ctrl + f         
+                            down
+
                 <-->    1. char         g0
                         1. non blank    g^^
                         middle          gm
                         middle text     gM
-                        last char       g$
 	cursor
 		top                     zt
                 to view                 zz      
@@ -114,20 +117,12 @@ autocomplete
                         backward        ctrl + p
         accept                          tab
 Settings
-        show cursor position            :set ruler / noruler
         show line numbers               :set number / nonumber
         case sensetive                  :set ignorecase / noignorecase
-        highlight search                :set hlsearch / nohlsearch
-        search while typing             :set incsearch
-        no wrap search                  :set nowrapscan
-        auto indentation                :set ai
-        tab is spaces                   :expandtab
-        tab space width                 :tabstop=4
-        set tab width                   :set tw=4
 change default startup settings
         on top for default source $VIMRUNTIME/defaults.vim
-        path                             $HOME/_vimrc
-        reload vim                      :so $MYVIMRC
+        path                            ~/vimfiles/vimrc
+        reload vimrc                    :so ~/vimfiles/vimrc
 search  
 	forward                         /string
         backward                        ?string 
