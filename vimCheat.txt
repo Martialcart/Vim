@@ -68,7 +68,7 @@ text editing
         delete rest of line             ctrl + u 
         undo            		u
         redo            		ctrl + r
-        copy            		y
+        copy line/bracket range		y
         cut             		d
         paste           		p
         replace tab with space          :retab
@@ -120,9 +120,14 @@ Settings
         show line numbers               :set number / nonumber
         case sensetive                  :set ignorecase / noignorecase
 change default startup settings
-        on top for default source $VIMRUNTIME/defaults.vim
+        
+        on top for default 		source $VIMRUNTIME/defaults.vim
         path                            ~/vimfiles/vimrc
-        reload vimrc                    :so ~/vimfiles/vimrc
+        reload vimrc                    :so
+        reference                       $MYVIMRC
+	install plugin
+		extract plugin
+		update helpfiles	helpt ~/vimfiles/doc
 search  
 	forward                         /string
         backward                        ?string 
@@ -132,6 +137,7 @@ search
                 forward                 n
                 backward                shift + new
                 close
+	multiple keywords		/keyWord1\|keyword2\|keyword3
 replace
         :range S/search/replace/flag
                 range   %       page
