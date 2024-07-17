@@ -134,7 +134,10 @@ change default startup settings
 					restart vim
 					:PLugInstall
 		commands		:Plug + tab
-		
+		add plugin		vimrc
+						call plug#begin()
+						Plug 'scrooloose/syntastic'
+						call plug#end()
 search  
 	forward                         /string
         backward                        ?string 
