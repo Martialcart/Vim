@@ -128,6 +128,13 @@ change default startup settings
 	install plugin
 		extract plugin
 		update helpfiles	helpt ~/vimfiles/doc
+	vimplug
+		install(windows)
+					~/vimfiles/autoload/vimplug
+					restart vim
+					:PLugInstall
+		commands		:Plug + tab
+		
 search  
 	forward                         /string
         backward                        ?string 
@@ -135,7 +142,7 @@ search
                         up              #
         navigation                      press enter to go into navigation
                 forward                 n
-                backward                shift + new
+                backward                shift + n
                 close
 	multiple keywords		/keyWord1\|keyword2\|keyword3
 replace
