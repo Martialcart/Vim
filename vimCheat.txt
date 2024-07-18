@@ -41,7 +41,7 @@ file explorer
         open file   vsplit              v
                     prevoius window     p
         list style                      i (4 styles, last is tree)
-        set top of tree                 Ntree [direcotry]
+        set top of tree                 :Ntree [direcotry]
         header                          shift + i
         go up dir                       - 
 
