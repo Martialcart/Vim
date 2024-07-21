@@ -72,6 +72,13 @@ text editing
         cut             		d
         paste           		p
         replace tab with space          :retab
+clipboard registers
+	show registers			:reg
+	paste from reg
+		normal			"(registername)p
+		insert			ctrl + r (registername)
+	create register			"(registername) + d(cut) / y(copy)	
+	available register names	a-z A-Z 0-9 
 movement
         0/HOME (e)backwards(ge) cursor (w)forward(b) $/END
         move to 1. non blanck char      shift + ^^
