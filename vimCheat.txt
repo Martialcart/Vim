@@ -15,6 +15,7 @@ adjust width                ctrl + w -> < / >
 swap windows                ctrl + w -> direction(h,j,k,l)
 move window                 ctrl + w -> shift + direction
 new file current window     :ene
+open vim multiple files	    vim -o file1 
 
 	
 window
