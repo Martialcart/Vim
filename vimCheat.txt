@@ -65,6 +65,7 @@ text editing
         new line under                  o
         new line over                   shift + o
         delete                          x
+	delete backward			bcsp / ctrl + h
         delete word                     ctrl + w
         delete rest of line             ctrl + u 
         undo            		u
@@ -146,6 +147,8 @@ change default startup settings
 						call plug#begin()
 						Plug 'scrooloose/syntastic'
 						call plug#end()
+vim in mingw32(git thing)
+	use external vim		
 search  
 	forward                         /string
         backward                        ?string 
