@@ -39,6 +39,7 @@ file explorer
         start                           :Explorer / :e .
         exit                            :Rexplore
         open tab                        :Texplore
+	reload				ctrl + l
         open file   vsplit              v
                     prevoius window     p
         list style                      i (4 styles, last is tree)
