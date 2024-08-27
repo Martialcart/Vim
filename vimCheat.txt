@@ -1,3 +1,7 @@
+todo
+-more convenient way to exit insert-mode than stretching for esc
+-vim command line mappings
+
 
 buffers(buffered text files)
 list buffers/files/win      :ls / :buffers /  :files
