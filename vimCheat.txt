@@ -54,8 +54,12 @@ previous tab    ctrl + pageUp
 last used tab   g + tab
 1 file 1 tab    vim -p filename ...
 
+
+vim commandline : 
+	show history	ctrl + f
+	delete word	ctrl + w
+
 random stuff
-	show commandline window         :ctrl + f
 	get a list of commands          :ctrl + d
 	exit recording mode		q
 
