@@ -1,5 +1,4 @@
 todo
--more convenient way to exit insert-mode than stretching for esc
 -vim command line mappings
 
 
@@ -62,6 +61,9 @@ last used tab   g + tab
 vim commandline : 
 	show history	ctrl + f
 	delete word	ctrl + w
+
+insert-mode
+	exit 		ctrl + c
 
 random stuff
 	get a list of commands          :ctrl + d
