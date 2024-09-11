@@ -87,6 +87,23 @@ text editing
         cut             		d
         paste           		p
         replace tab with space          :retab
+
+spell check
+	activate			:setlocal spell spelllang=	en_us
+	navigate
+		misspelled	
+			next		]s
+			previous	[s
+		bad
+			next		]S
+			previous	[S
+	add own word			zg			
+	suggestion			z=		
+		insert-mode
+			suggestion	ctrl + x
+			next		ctrl + n
+			prev		ctrl + p	
+
 clipboard registers
 	show registers			:reg
 	paste from reg
