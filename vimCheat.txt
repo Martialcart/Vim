@@ -1,6 +1,7 @@
 todo
 -vim command line mappings
 -vim auto-indent tabs Athena
+-stop wrapping text
 
 
 buffers(buffered text files)
