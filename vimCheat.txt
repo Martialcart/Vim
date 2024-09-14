@@ -2,6 +2,7 @@ todo
 -vim command line mappings
 -vim auto-indent tabs Athena
 -stop wrapping text
+-Testing editing from usb in pc
 
 
 buffers(buffered text files)
