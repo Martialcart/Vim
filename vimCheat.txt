@@ -1,3 +1,9 @@
+todo
+-vim command line mappings
+-vim auto-indent tabs Athena
+-stop wrapping text
+-Testing editing from usb in pc
+
 
 buffers(buffered text files)
 list buffers/files/win      :ls / :buffers /  :files
@@ -41,6 +47,7 @@ file explorer
 delete file or folder			D
 create directory			d
         open tab                        :Texplore
+	reload				ctrl + l
         open file   vsplit              v
                     prevoius window     p
         list style                      i (4 styles, last is tree)
@@ -55,10 +62,17 @@ previous tab    ctrl + pageUp
 last used tab   g + tab
 1 file 1 tab    vim -p filename ...
 
+
+vim commandline : 
+	show history	ctrl + f
+	delete word	ctrl + w
+
+insert-mode
+	exit 		ctrl + c
+
 random stuff
-show commandline window                 :ctrl + f
-get a list of commands                  :ctrl + d
-exit recording mode			q
+	get a list of commands          :ctrl + d
+	exit recording mode		q
 
 text editing
         cut line                        dd
@@ -67,6 +81,7 @@ text editing
         new line under                  o
         new line over                   shift + o
         delete                          x
+	delete backward			bcsp / ctrl + h
         delete word                     ctrl + w
         delete rest of line             ctrl + u 
         undo            		u
@@ -75,6 +90,23 @@ text editing
         cut             		d
         paste           		p
         replace tab with space          :retab
+
+spell check
+	activate			:setlocal spell spelllang=	en_us
+	navigate
+		misspelled	
+			next		]s
+			previous	[s
+		bad
+			next		]S
+			previous	[S
+	add own word			zg			
+	suggestion			z=		
+		insert-mode
+			suggestion	ctrl + x
+			next		ctrl + n
+			prev		ctrl + p	
+
 clipboard registers
 	show registers			:reg
 	paste from reg
@@ -148,6 +180,8 @@ change default startup settings
 						call plug#begin()
 						Plug 'scrooloose/syntastic'
 						call plug#end()
+vim in mingw32(git thing)
+	use external vim		
 search  
 	forward                         /string
         backward                        ?string 
