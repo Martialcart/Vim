@@ -38,6 +38,8 @@ search
 file explorer
         start                           :Explorer / :e .
         exit                            :Rexplore
+delete file or folder			D
+create directory			d
         open tab                        :Texplore
         open file   vsplit              v
                     prevoius window     p
