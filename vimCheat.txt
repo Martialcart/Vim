@@ -49,7 +49,9 @@ create directory			d
         open tab                        :Texplore
 	reload				ctrl + l
         open file   vsplit              v
+		    hsplit 		s
                     prevoius window     p
+		    to screen n		[count]C
         list style                      i (4 styles, last is tree)
         set top of tree                 :Ntree [direcotry]
         header                          shift + i
