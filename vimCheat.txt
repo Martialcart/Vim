@@ -76,8 +76,22 @@ random stuff
 	get a list of commands          :ctrl + d
 	exit recording mode		q
 
+bokmerker
+	bind a til lokasjon		m a
+	gå til bokmerke a		(*/')-tast a
+	toogle sist besøkte sted	(*/')-tast (*/')-tast 
+	gå til siste linje redigert	(*/')-tast . 
 text editing
+	øke/minke tall			ctrl a / c
+	repeat action			.
+	endre
+		bokstav			c
+		ord			c i w
+	insert
+		start			I
+		slutt			A
         cut line                        dd
+	copy line			yy
     	replace line			        shift + c
         delete line break               shift + j
         new line under                  o
@@ -92,7 +106,7 @@ text editing
         cut             		d
         paste           		p
         replace tab with space          :retab
-
+	set in current date		i_ ctrl r =strftime('F%')(cr)
 spell check
 	activate			:setlocal spell spelllang=	en_us
 	navigate
@@ -118,6 +132,7 @@ clipboard registers
 	available register names	a-z A-Z 0-9 
 movement
         0/HOME (e)backwards(ge) cursor (w)forward(b) $/END
+	skip connected words		shift + w
         move to 1. non blanck char      shift + ^^
         go to char                      F/f char
         move to char                    T/t
@@ -151,10 +166,17 @@ movement
                 start last change       [
                 end last change         ]
 select / visualmode
+	select
+		inner			v i
+		outer(with qoutes)	v a
         normal select                   v
         line select                     shift + v
         box select                      ctrl + v
         edit selected lines             shift + i
+	swap cursor position		o
+	selected numbers
+		increment		g ctrl a
+		decrement		g ctrl c
 autocomplete
         get suggestion                  ctrl + n
         navigate        forward         ctrl + n
@@ -163,6 +185,7 @@ autocomplete
 Settings
         show line numbers               :set number / nonumber
         case sensetive                  :set ignorecase / noignorecase
+	hvis realtive linjenummer	:set relativenumber	
 change default startup settings
         
         on top for default 		source $VIMRUNTIME/defaults.vim
@@ -201,3 +224,5 @@ replace
                 flags
                         g       all
                         c       confirm
+
+
