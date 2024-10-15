@@ -31,7 +31,7 @@ window
 		top left		ctrl + w t
 		next			ctrl + w w
 	move
-		rotate 			ctrl + w r / R
+		rotate			ctrl + w r / R
 		swap N			[window Num] ctrl + w x	
 jump back                   ctrl + o
 jump forward                ctrl + i
@@ -49,7 +49,7 @@ create directory			d
         open tab                        :Texplore
 	reload				ctrl + l
         open file   vsplit              v
-		    hsplit 		s
+		    hsplit		s
                     prevoius window     p
 		    to screen n		[count]C
         list style                      i (4 styles, last is tree)
@@ -70,7 +70,7 @@ vim commandline :
 	delete word	ctrl + w
 
 insert-mode
-	exit 		ctrl + c
+	exit		ctrl + c
 
 random stuff
 	get a list of commands          :ctrl + d
@@ -92,7 +92,7 @@ text editing
 		slutt			A
         cut line                        dd
 	copy line			yy
-    	replace line			        shift + c
+	replace line				shift + c
         delete line break               shift + j
         new line under                  o
         new line over                   shift + o
@@ -100,11 +100,11 @@ text editing
 	delete backward			bcsp / ctrl + h
         delete word                     ctrl + w
         delete rest of line             ctrl + u 
-        undo            		u
-        redo            		ctrl + r
+        undo				u
+        redo				ctrl + r
         copy line/bracket range		y
-        cut             		d
-        paste           		p
+        cut				d
+        paste				p
         replace tab with space          :retab
 	set in current date		i_ ctrl r =strftime('F%')(cr)
 spell check
@@ -182,13 +182,16 @@ autocomplete
         navigate        forward         ctrl + n
                         backward        ctrl + p
         accept                          tab
+	omnifunc			ctrl x ctrl o
+		samme som over
+		
 Settings
         show line numbers               :set number / nonumber
         case sensetive                  :set ignorecase / noignorecase
 	hvis realtive linjenummer	:set relativenumber	
 change default startup settings
         
-        on top for default 		source $VIMRUNTIME/defaults.vim
+        on top for default		source $VIMRUNTIME/defaults.vim
         path                            ~/vimfiles/vimrc
         reload vimrc                    :so
         reference                       $MYVIMRC
