@@ -1,0 +1,3 @@
+powershell
+    download help			    update-help
+    search in help			    get-help <search-querry>

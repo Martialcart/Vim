@@ -21,41 +21,54 @@ adjust width                ctrl + w -> < / >
 swap windows                ctrl + w -> direction(h,j,k,l)
 move window                 ctrl + w -> shift + direction
 new file current window     :ene
-open vim multiple files	    vim -o file1 
+open vim multiple files     vim -o file1 
 
-	
+        
 window
-	go to 
-		previous		ctrl + w p
-		bottom right		ctrl + w b
-		top left		ctrl + w t
-		next			ctrl + w w
-	move
-		rotate			ctrl + w r / R
-		swap N			[window Num] ctrl + w x	
+        go to 
+                previous                ctrl + w p
+                bottom right            ctrl + w b
+                top left                ctrl + w t
+                next                    ctrl + w w
+        move
+                rotate                  ctrl + w r / R
+                swap N                  [window Num] ctrl + w x 
 jump back                   ctrl + o
 jump forward                ctrl + i
 save and exit               shift + zz
 
 click link                  ctrl + (^¨~)-button
 search
-	OR
-	
-file explorer
+        OR
+
+
+
+        
+file explorer************************
         start                           :Explorer / :e .
         exit                            :Rexplore
-delete file or folder			D
-create directory			d
-        open tab                        :Texplore
-	reload				ctrl + l
-        open file   vsplit              v
-		    hsplit		s
+delete file or folder                   D
+create 
+        directory                       d
+        file and open                   %
+open
+        file
+            vsplit                      v
+            hsplit                      s
+        tab                             :Texplore
+execute                                 x
+reload                          ctrl + l
                     prevoius window     p
-		    to screen n		[count]C
+                    to screen n         [count]C
         list style                      i (4 styles, last is tree)
         set top of tree                 :Ntree [direcotry]
         header                          shift + i
         go up dir                       - 
+mark                                    m
+        bookmark current dir            b
+        copy
+
+
 
 new tab         :tabnew "tabname"
 list tabs       :tabs
@@ -66,73 +79,73 @@ last used tab   g + tab
 
 
 vim commandline : 
-	show history	ctrl + f
-	delete word	ctrl + w
+        show history    ctrl + f
+        delete word     ctrl + w
 
 insert-mode
-	exit		ctrl + c
+        exit            ctrl + c
 
 random stuff
-	get a list of commands          :ctrl + d
-	exit recording mode		q
+        get a list of commands          :ctrl + d
+        exit recording mode             q
 
 bokmerker
-	bind a til lokasjon		m a
-	gå til bokmerke a		(*/')-tast a
-	toogle sist besøkte sted	(*/')-tast (*/')-tast 
-	gå til siste linje redigert	(*/')-tast . 
+        bind a til lokasjon             m a
+        gå til bokmerke a               (*/')-tast a
+        toogle sist besøkte sted        (*/')-tast (*/')-tast 
+        gå til siste linje redigert     (*/')-tast . 
 text editing
-	øke/minke tall			ctrl a / c
-	repeat action			.
-	endre
-		bokstav			c
-		ord			c i w
-	insert
-		start			I
-		slutt			A
+        øke/minke tall                  ctrl a / c
+        repeat action                   .
+        endre
+                bokstav                 c
+                ord                     c i w
+        insert
+                start                   I
+                slutt                   A
         cut line                        dd
-	copy line			yy
-	replace line				shift + c
+        copy line                       yy
+        replace line                            shift + c
         delete line break               shift + j
         new line under                  o
         new line over                   shift + o
         delete                          x
-	delete backward			bcsp / ctrl + h
+        delete backward                 bcsp / ctrl + h
         delete word                     ctrl + w
         delete rest of line             ctrl + u 
-        undo				u
-        redo				ctrl + r
-        copy line/bracket range		y
-        cut				d
-        paste				p
+        undo                            u
+        redo                            ctrl + r
+        copy line/bracket range         y
+        cut                             d
+        paste                           p
         replace tab with space          :retab
-	set in current date		i_ ctrl r =strftime('F%')(cr)
+        set in current date             i_ ctrl r =strftime('F%')(cr)
 spell check
-	activate			:setlocal spell spelllang=	en_us
-	navigate
-		misspelled	
-			next		]s
-			previous	[s
-		bad
-			next		]S
-			previous	[S
-	add own word			zg			
-	suggestion			z=		
-		insert-mode
-			suggestion	ctrl + x
-			next		ctrl + n
-			prev		ctrl + p	
+        activate                        :setlocal spell spelllang=      en_us
+        navigate
+                misspelled      
+                        next            ]s
+                        previous        [s
+                bad
+                        next            ]S
+                        previous        [S
+        add own word                    zg                      
+        suggestion                      z=              
+                insert-mode
+                        suggestion      ctrl + x
+                        next            ctrl + n
+                        prev            ctrl + p        
 
 clipboard registers
-	show registers			:reg
-	paste from reg
-		normal			"(registername)p
-		insert			ctrl + r (registername)
-	create register			"(registername) + d(cut) / y(copy)	
-	available register names	a-z A-Z 0-9 
+        show registers                  :reg
+        paste from reg
+                normal                  "(registername)p
+                insert                  ctrl + r (registername)
+        create register                 "(registername) + d(cut) / y(copy)      
+        available register names        a-z A-Z 0-9 
 movement
         0/HOME (e)backwards(ge) cursor (w)forward(b) $/END
-	skip connected words		shift + w
+        skip connected words            shift + w
         move to 1. non blanck char      shift + ^^
         go to char                      F/f char
         move to char                    T/t
@@ -157,8 +170,8 @@ movement
                         1. non blank    g^^
                         middle          gm
                         middle text     gM
-	cursor
-		top                     zt
+        cursor
+                top                     zt
                 to view                 zz      
                 bottom                  zb
                 before jump             shift + \\
@@ -166,52 +179,52 @@ movement
                 start last change       [
                 end last change         ]
 select / visualmode
-	select
-		inner			v i
-		outer(with qoutes)	v a
+        select
+                inner                   v i
+                outer(with qoutes)      v a
         normal select                   v
         line select                     shift + v
         box select                      ctrl + v
         edit selected lines             shift + i
-	swap cursor position		o
-	selected numbers
-		increment		g ctrl a
-		decrement		g ctrl c
+        swap cursor position            o
+        selected numbers
+                increment               g ctrl a
+                decrement               g ctrl c
 autocomplete
         get suggestion                  ctrl + n
         navigate        forward         ctrl + n
                         backward        ctrl + p
         accept                          tab
-	omnifunc			ctrl x ctrl o
-		samme som over
-		
+        omnifunc                        ctrl x ctrl o
+                samme som over
+                
 Settings
         show line numbers               :set number / nonumber
         case sensetive                  :set ignorecase / noignorecase
-	hvis realtive linjenummer	:set relativenumber	
+        hvis realtive linjenummer       :set relativenumber     
 change default startup settings
         
-        on top for default		source $VIMRUNTIME/defaults.vim
+        on top for default              source $VIMRUNTIME/defaults.vim
         path                            ~/vimfiles/vimrc
         reload vimrc                    :so
         reference                       $MYVIMRC
-	install plugin
-		extract plugin
-		update helpfiles	helpt ~/vimfiles/doc
-	vimplug
-		install(windows)
-					~/vimfiles/autoload/vimplug
-					restart vim
-					:PLugInstall
-		commands		:Plug + tab
-		add plugin		vimrc
-						call plug#begin()
-						Plug 'scrooloose/syntastic'
-						call plug#end()
+        install plugin
+                extract plugin
+                update helpfiles        helpt ~/vimfiles/doc
+        vimplug
+                install(windows)
+                                        ~/vimfiles/autoload/vimplug
+                                        restart vim
+                                        :PLugInstall
+                commands                :Plug + tab
+                add plugin              vimrc
+                                                call plug#begin()
+                                                Plug 'scrooloose/syntastic'
+                                                call plug#end()
 vim in mingw32(git thing)
-	use external vim		
+        use external vim                
 search  
-	forward                         /string
+        forward                         /string
         backward                        ?string 
         word at cursor  down            *
                         up              #
@@ -219,7 +232,7 @@ search
                 forward                 n
                 backward                shift + n
                 close
-	multiple keywords		/keyWord1\|keyword2\|keyword3
+        multiple keywords               /keyWord1\|keyword2\|keyword3
 replace
         :range S/search/replace/flag
                 range   %       page
