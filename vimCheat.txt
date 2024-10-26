@@ -188,8 +188,8 @@ select / visualmode
         edit selected lines             shift + i
         swap cursor position            o
         selected numbers
-                increment               g ctrl a
-                decrement               g ctrl c
+                increment               ctrl a
+                decrement               ctrl c
 autocomplete
         get suggestion                  ctrl + n
         navigate        forward         ctrl + n
