@@ -84,6 +84,9 @@ vim commandline :
 
 insert-mode
         exit            ctrl + c
+	indent
+	    +		ctrl + t
+	    -		ctrl + d
 
 random stuff
         get a list of commands          :ctrl + d
@@ -240,5 +243,3 @@ replace
                 flags
                         g       all
                         c       confirm
-
-
