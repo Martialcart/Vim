@@ -46,7 +46,7 @@ search
         
 file explorer************************
         start                           :Explorer / :e .
-        exit                            :Rexplore
+        exit                            :Rexplore / ctrl + w q
 delete file or folder                   D
 create 
         directory                       d
@@ -55,19 +55,23 @@ open
         file
             vsplit                      v
             hsplit                      s
-        tab                             :Texplore
+	    same split			p
+	    in tab			t
 execute                                 x
 reload                          ctrl + l
                     prevoius window     p
                     to screen n         [count]C
         list style                      i (4 styles, last is tree)
         set top of tree                 :Ntree [direcotry]
+	set top tree under cursor	gn
         header                          shift + i
         go up dir                       - 
-mark                                    m
-        bookmark current dir            b
-        copy
-
+bookmark
+    bokmark current dir			mb
+    go to previus bookmark		gb
+    go to bokmark			[number] gb
+    list bokmarks			qb
+    delete bokmark			mB
 
 
 new tab         :tabnew "tabname"
@@ -205,6 +209,11 @@ Settings
         show line numbers               :set number / nonumber
         case sensetive                  :set ignorecase / noignorecase
         hvis realtive linjenummer       :set relativenumber     
+	filsynkornisering		autowriteall
+	no wrap				:set nowrap
+set scroll distance			:set sidescroll=5
+save everything isntatnly		:set awa 
+
 change default startup settings
         
         on top for default              source $VIMRUNTIME/defaults.vim
