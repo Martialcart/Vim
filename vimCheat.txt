@@ -66,6 +66,9 @@ reload                          ctrl + l
 	set top tree under cursor	gn
         header                          shift + i
         go up dir                       - 
+use diff up to 3 files
+    mark files				mf
+    open marked in diff			md
 bookmark
     bokmark current dir			mb
     go to previus bookmark		gb
