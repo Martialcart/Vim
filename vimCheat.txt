@@ -45,8 +45,25 @@ search
 
         
 file explorer************************
-        start                           :Explorer / :e .
-        exit                            :Rexplore / ctrl + w q
+start
+    dir current file			:[width]Explore
+	split to
+	    top				:[width]Sexplore
+	    left			:[width]Sexplore!
+
+    current dir
+	open				:e .
+        split to
+	    top				:[width]Hexplore!
+	    bottom			:[width]Hexplore
+      	    left			:[width]Vexplore
+      	    right   			:[width]Vexplore!
+      	toggle view
+	    left			:[width]Lexplore
+	    right			:[width]Lexplore!
+	new tab				:Texplore 
+toggle					:Rexplore
+exit					ctrl + w q
 delete file or folder                   D
 create 
         directory                       d
