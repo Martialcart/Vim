@@ -20,6 +20,7 @@ swap windows                ctrl + w -> direction(h,j,k,l)
 move window                 ctrl + w -> shift + direction
 new file current window     :ene
 open vim multiple files     vim -o file1 
+    inside vim		    :al file1 file2
 
 zoom in			    ctrl +
 zoom out		    ctrl - 
@@ -211,6 +212,11 @@ movement
                         1. non blank    g^^
                         middle          gm
                         middle text     gM
+
+	indent line
+	    left			<
+	    right			>
+	
         cursor
                 top                     zt
                 to view                 zz      
@@ -224,6 +230,9 @@ select / visualmode
                 inner                   v i
                 outer(with qoutes)      v a
         normal select                   v
+	to case
+	    upper			U
+	    lower			u
         line select                     shift + v
         box select                      ctrl + v
         edit selected lines             shift + i
