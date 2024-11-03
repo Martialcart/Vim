@@ -1,8 +1,6 @@
 todo
 -vim command line mappings
--vim auto-indent tabs Athena
--stop wrapping text
--Testing editing from usb in pc
+-repeating commands
 
 
 buffers(buffered text files)
@@ -23,7 +21,13 @@ move window                 ctrl + w -> shift + direction
 new file current window     :ene
 open vim multiple files     vim -o file1 
 
-        
+zoom in			    ctrl +
+zoom out		    ctrl - 
+
+terminal
+    open		    :term
+    normal mode		    ctrl + w n
+    switch tab		    ctrl + w gt /gT   
 window
         go to 
                 previous                ctrl + w p
@@ -103,8 +107,17 @@ last used tab   g + tab
 
 
 vim commandline : 
+	next suggestion	<tab> / ctrl + i
+	    accept	ctrl + y
+	    cancel	ctrl + e
+	    skip ahead	pageUp
+		back	pageDown
         show history    ctrl + f
         delete word     ctrl + w
+	cursor to
+	    start	ctrl + b
+	    end		ctrl + e
+	use register	ctrl + r regname
 
 insert-mode
         exit            ctrl + c
