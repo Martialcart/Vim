@@ -1,6 +1,7 @@
 todo
 -vim command line mappings
 -repeating commands
+-custom bookmarks in explorer?
 
 
 buffers(buffered text files)
