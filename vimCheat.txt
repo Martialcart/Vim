@@ -222,7 +222,7 @@ movement
                 to view                 zz      
                 bottom                  zb
                 before jump             shift + \\
-                last edit               "
+                last edit               */' button x 2
                 start last change       [
                 end last change         ]
 select / visualmode
@@ -246,7 +246,7 @@ autocomplete
                         backward        ctrl + p
         accept                          tab
         omnifunc                        ctrl x ctrl o
-                samme som over
+
                 
 Settings
         show line numbers               :set number / nonumber
@@ -254,8 +254,23 @@ Settings
         hvis realtive linjenummer       :set relativenumber     
 	filsynkornisering		autowriteall
 	no wrap				:set nowrap
-set scroll distance			:set sidescroll=5
-save everything isntatnly		:set awa 
+	scroll distance			:set sidescroll=5
+	save everything instantl	:set awa 
+	highlight search		:set hls
+	colorsscemes			:colo
+	    ranked			ron	
+					default
+					desert
+					habamax
+					industri
+					murphy
+					slate
+					retrobox
+					sorbet
+					torte
+					wildcharm
+					
+
 
 change default startup settings
         
