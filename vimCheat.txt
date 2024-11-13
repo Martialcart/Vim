@@ -146,7 +146,7 @@ text editing
                 slutt                   A
         cut line                        dd
         copy line                       yy
-        replace line                            shift + c
+        replace line                    shift + c
         delete line break               shift + j
         new line under                  o
         new line over                   shift + o
@@ -192,7 +192,7 @@ movement
         move to char                    T/t
         move to matching {[(            %
         go to a line number             n G
-        go to end of file               G
+	go to end of file               G
         go to start of file             0G / gg
         move to % of file               50%
         move to visible lines           (H)igh (M)iddle (L)ow
