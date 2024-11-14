@@ -147,7 +147,7 @@ text editing
                 slutt                   A
         cut line                        dd
         copy line                       yy
-        replace line                            shift + c
+        replace line                    shift + c
         delete line break               shift + j
         new line under                  o
         new line over                   shift + o
@@ -193,7 +193,7 @@ movement
         move to char                    T/t
         move to matching {[(            %
         go to a line number             n G
-        go to end of file               G
+	go to end of file               G
         go to start of file             0G / gg
         move to % of file               50%
         move to visible lines           (H)igh (M)iddle (L)ow
@@ -223,7 +223,7 @@ movement
                 to view                 zz      
                 bottom                  zb
                 before jump             shift + \\
-                last edit               "
+                last edit               */' button x 2
                 start last change       [
                 end last change         ]
 select / visualmode
@@ -247,7 +247,7 @@ autocomplete
                         backward        ctrl + p
         accept                          tab
         omnifunc                        ctrl x ctrl o
-                samme som over
+
                 
 Settings
         show line numbers               :set number / nonumber
@@ -255,8 +255,23 @@ Settings
         hvis realtive linjenummer       :set relativenumber     
 	filsynkornisering		autowriteall
 	no wrap				:set nowrap
-set scroll distance			:set sidescroll=5
-save everything isntatnly		:set awa 
+	scroll distance			:set sidescroll=5
+	save everything instantl	:set awa 
+	highlight search		:set hls
+	colorsscemes			:colo
+	    ranked			ron	
+					default
+					desert
+					habamax
+					industri
+					murphy
+					slate
+					retrobox
+					sorbet
+					torte
+					wildcharm
+					
+
 
 change default startup settings
         
