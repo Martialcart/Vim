@@ -1,6 +1,7 @@
 todo
 -vim command line mappings
 -repeating commands
+-custom bookmarks in explorer?
 
 
 buffers(buffered text files)
@@ -189,10 +190,10 @@ movement
         skip connected words            shift + w
         move to 1. non blanck char      shift + ^^
         go to char                      F/f char
-        move to char                    T/t
-        move to matching {[(            %
-        go to a line number             n G
-	go to end of file               G
+	move to char                    T/t
+	move to matching {[(            %
+		go to a line number             n G
+		go to end of file               G
         go to start of file             0G / gg
         move to % of file               50%
         move to visible lines           (H)igh (M)iddle (L)ow
@@ -216,6 +217,11 @@ movement
 	indent line
 	    left			<
 	    right			>
+	bookmarks
+	    book mark a line with a	ma
+	    go to bookmark a		'a
+	    show bookmarks		:marks
+	    
 	
         cursor
                 top                     zt
