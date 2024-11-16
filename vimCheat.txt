@@ -229,6 +229,7 @@ select / visualmode
         select
                 inner                   v i
                 outer(with qoutes)      v a
+	exit to normalmode		v_v
         normal select                   v
 	to case
 	    upper			U
@@ -269,8 +270,6 @@ Settings
 					sorbet
 					torte
 					wildcharm
-					
-
 
 change default startup settings
         
