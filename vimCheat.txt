@@ -309,6 +309,9 @@ search
                 backward                shift + n
                 close
         multiple keywords               /keyWord1\|keyword2\|keyword3
+	
+	multiple files			:vimgrep /keyword/ files
+
 replace
         :range S/search/replace/flag
                 range   %       page
