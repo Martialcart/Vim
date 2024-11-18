@@ -235,6 +235,7 @@ select / visualmode
         select
                 inner                   v i
                 outer(with qoutes)      v a
+	exit to normalmode		v_v
         normal select                   v
 	to case
 	    upper			U
@@ -264,19 +265,18 @@ Settings
 	save everything instantl	:set awa 
 	highlight search		:set hls
 	colorsscemes			:colo
-	    ranked			ron	
+					ranked			
+					sorbet
+					ron	
 					default
-					desert
+					murphy
 					habamax
 					industri
-					murphy
+					desert
 					slate
-					retrobox
-					sorbet
-					torte
 					wildcharm
-					
-
+					retrobox
+					torte
 
 change default startup settings
         
