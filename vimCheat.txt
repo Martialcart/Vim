@@ -319,4 +319,4 @@ replace
                         5,$     line 5 to end of file    
                 flags
                         g       all
-                        c       confirm
+			    into tabs		    vim -p file1 file2c       confirm
