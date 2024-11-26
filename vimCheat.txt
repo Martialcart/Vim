@@ -106,6 +106,8 @@ list tabs       :tabs
 next tab        ctrl + pageDown
 previous tab    ctrl + pageUp
 last used tab   g + tab
+move tab	:tabm index
+    last	:tabm 
 1 file 1 tab    vim -p filename ...
 
 
